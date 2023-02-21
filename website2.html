@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="css2/style.css">
+  </head>
+  <body>
+    <h1>To-Do List App</h1>
+
+    <div class="todo-app">
+        <form action="" class="todo-app-column" id="add-todo-form">
+            <h2>Add Todo</h2>
+            <input name="todo" type="text" id="todo-input" placeholder="Enter a new todo..." required>
+            <input name="due" type="date" id="todo-date" required>
+            <!-- <button onclick="addTodo()">Add</button> -->
+            <input type="submit" value="Add">
+        </form>
+
+        <div class="todo-app-column">
+            <h2>In Progress</h2>
+            <ul id="in-progress-list"></ul>
+        </div>
+
+        <div class="todo-app-column">
+            <h2>Completed</h2>
+            <ul id="completed-list"></ul>
+        </div>
+    </div>
+  </body>
+
+  <script src="yes.js"></script>
+  <!-- <script src="newYes.js"></script> -->
+
+</html>
+
+
