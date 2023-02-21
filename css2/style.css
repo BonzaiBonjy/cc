@@ -96,22 +96,5 @@ body {
     padding: 2%;
     min-height: 90vh;
 =======
-body {
-    background-color: blanchedalmond;
-}
-p{
-    color:darkblue;
-}
 
-h1 {
-    text-align: center;
-}
-
-.box {
-    background-color: plum;
-    width: 200px;
-   margin: 50px;
-   border-style: groove;
-   
->>>>>>> b249b25d94bf09dcd369ca6a757177c6a01c8fa0
 }
